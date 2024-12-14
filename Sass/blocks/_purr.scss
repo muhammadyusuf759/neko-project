@@ -9,16 +9,44 @@
 }
 .purr-item__text{
     color: black;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     @include font (12px , 700);
+    width: 200px;
+    padding-bottom: 19px;
 }
 .purr-item__title{
     color: white;
-
+    @include font (36px , 700);
+    padding-bottom: 15px;
+}
+.purr-item__bottom-text{
+    color: white;
+    @include font (14px , 400);
+    width: 190px;
+    padding-bottom: 35px;
 }
 .purr-pink{
-    background-color: #C75E90;
+    background-color: $btn-color;
     width: 315px;
     height: 480px;
     border-radius: 40px;
+}
+.purr-item__btn{
+    background-color: $btn-color;
+    @include btn (15px 80px , 40px , none , $main-btn , white);
+}
+.grooming-item__title{
+    color: white;
+    @include font (24px , 700);
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.purr-black{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.grooming-item__text{
+    color: white;
+    width: 200px;
+    @include font (14px , 400)
 }
