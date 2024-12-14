@@ -4,3 +4,7 @@
     justify-content: $j-c;
     gap: $gap;
 }
+@mixin font ($fs:10px , $fw:100) {
+    font-size: $fs;
+    font-weight: $fw;
+}

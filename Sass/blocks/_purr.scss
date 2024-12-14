@@ -1,0 +1,24 @@
+.purr__list{
+    margin-left: 65px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.purr__item{
+    padding-left: 40px;
+    padding-top: 90px;
+}
+.purr-item__text{
+    color: black;
+    letter-spacing: 2px;
+    @include font (12px , 700);
+}
+.purr-item__title{
+    color: white;
+
+}
+.purr-pink{
+    background-color: #C75E90;
+    width: 315px;
+    height: 480px;
+    border-radius: 40px;
+}
