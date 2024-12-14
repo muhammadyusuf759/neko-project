@@ -1,0 +1,140 @@
+.about {
+  margin-top: 60px;
+}
+
+.about__text {
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 5px;
+  text-align: left;
+  font-size: 20px;
+  color: $text-grey;
+  margin-top: 60px;
+}
+
+.about__wrapper {
+  padding-top: 48px;
+}
+
+.about__subtitle {
+  width: 274px;
+  height: 54px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  padding-top: 37px;
+}
+
+.about__content{
+    background-color: #161616;
+    padding: 100px;
+    border-radius: 80px;
+}
+
+.about__textt {
+  width: 450px;
+  height: 18px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  padding-top: 50px;
+}
+
+.content__btnn {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 10px 35px 10px 35px;
+  background-color: $btn-color;
+  margin-top: 120px;
+  border: none;
+  border-radius: 70px;
+  color: $text-color;
+}
+
+.content__wrapperr {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.content__imgg {
+  width: 300px;
+  height: 300px;
+  margin-left: 570px;
+  margin-top: -430px;
+}
+
+// 2
+.they__sub-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.they__text {
+  width: 868px;
+  height: 42px;
+  top: 4364px;
+  left: 886px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}
+
+.they__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.they__content {
+  padding: 30px;
+  margin: 10px;
+  width: 350px;
+  border-radius: 20px;
+  background-color: #161616;
+}
+
+.content__text {
+  width: 300px;
+  height: 168px;
+  top: 4632px;
+  left: 112px;
+  gap: 0px;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.wrapper__imge {
+  background-color: #d4507a;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.content__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper__text {
+  margin-left: 15px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
