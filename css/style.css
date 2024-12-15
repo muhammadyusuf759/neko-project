@@ -518,4 +518,13 @@ body {
   width: 200px;
   font-size: 14px;
   font-weight: 400;
+}
+
+.purr_kit {
+  display: flex;
+  align-items: center;
+  justify-content: flex;
+  gap: 0px;
+  padding-top: 68px;
+  padding-left: 250px;
 }/*# sourceMappingURL=style.css.map */
