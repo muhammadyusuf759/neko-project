@@ -22,7 +22,9 @@ button {
   cursor: pointer;
 }
 
-body {
+
+body{
+  color: $text-color;
   background-color: $bacground-color;
 }
 body {
