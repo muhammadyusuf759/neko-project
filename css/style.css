@@ -530,6 +530,50 @@ body {
   padding-left: 250px;
 }
 
+.grooming-item__text {
+  color: white;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.img__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 65px;
+  gap: 20px;
+}
+
+.radius-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.radius {
+  border-radius: 50%;
+  background-color: #c75e90;
+  width: 70px;
+  height: 70px;
+  padding-left: 10px;
+  padding-top: 10px;
+  position: absolute;
+  top: 200px;
+  left: 105px;
+}
+
+.img__item {
+  position: relative;
+}
+
+.img__list {
+  margin-left: 100px;
+}
+
+.amin_xatosi {
+  display: flex;
+  justify-content: center;
+}
+
 .about {
   margin-top: 60px;
 }

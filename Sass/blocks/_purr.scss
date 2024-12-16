@@ -56,3 +56,40 @@
   padding-top: 68px;
   padding-left: 250px;
 }
+.grooming-item__text {
+  color: white;
+  width: 200px;
+  @include font(14px, 400);
+}
+.img__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 65px;
+  gap: 20px;
+}
+.radius-icon {
+  width: 50px;
+  height: 50px;
+}
+.radius {
+  border-radius: 50%;
+  background-color: $btn-color;
+  width: 70px;
+  height: 70px;
+  padding-left: 10px;
+  padding-top: 10px;
+  position: absolute;
+  top: 200px;
+  left: 105px;
+}
+.img__item {
+  position: relative;
+}
+.img__list {
+  margin-left: 100px;
+}
+
+.amin_xatosi {
+  display: flex;
+  justify-content: center;
+}
