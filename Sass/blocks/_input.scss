@@ -1,0 +1,82 @@
+.info__wrapper{
+   background-color: $color-door;
+   padding-top: 100px;
+   width: 1400px;
+   margin-left: 60px;
+   margin-top: 80px;
+}
+.info-top__text{
+    text-align: center;
+    
+}
+.info-top{
+    color: $text-grey;
+    letter-spacing: 2px;
+    padding-bottom: 25px;
+}
+.info__title{
+    @include font (40px , 700);
+}
+.info__texts{
+   width: 800px;
+  margin-left: 300px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+.info-small{
+    border-radius: 40px;
+    width: 530px;
+    height: 80px;
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-left: 40px;
+   
+}
+.info-top-in{
+    padding-bottom: 10px;
+}
+.small-info{
+    display: flex;
+ margin-left: 150px;
+ gap: 20px;
+}
+.big-info{
+    border-radius: 40px;
+    width: 1090px;
+    height: 80px;
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-left: 40px;
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.m{
+    margin-top: 50px;
+}
+.info-btn{
+    margin-left: 600px;
+    @include btn (20px 60px , 40px , none , $btn-color , white);
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+.Paradise{
+    width: 230px;
+}
+.big-info-icon1{
+    width: 55px;
+    height: 55px;
+    background-color: $btn-color;
+    border-radius: 50%;
+}
+.small-info{
+    color: white;
+}
+.big-info{
+    color: white;
+}
+.info-top__text{
+    color: white;
+}
